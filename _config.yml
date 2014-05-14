@@ -54,7 +54,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://jessetg.github.io/Dojonoid
+  BASE_PATH : https://JesseTG.github.io/Dojonoid
 
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
