@@ -21,8 +21,6 @@ h1, h2, h3, h4 {
   background-color: #fdcd60;
 }
 
-
-
 /* posts index */
 .post > h3.title {
   position: relative;
@@ -77,3 +75,60 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+aside.info, aside.good-news, aside.challenge, aside.warning, aside.but-wait {
+  display: block;
+  padding: .5em 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  background: red;
+}
+
+aside.info:before, aside.good-news:before, aside.challenge:before, aside.warning:before, aside.but-wait:before {
+  font-size: 2em;
+  font-weight: bold;
+  display: block;
+}
+
+aside.info {
+  color: white;
+  background-color: #25AFE6;
+}
+
+aside.good-news {
+  background-color: #B9FA9D;
+}
+
+aside.challenge {
+  background-color: #fdcd60;
+}
+
+aside.warning {
+  color: white;
+  background-color: #f22430;
+}
+
+aside.but-wait {
+  background-color: #DE9DFA;
+}
+
+aside.info:before {
+  content: "Consider the Following";
+}
+
+aside.good-news:before {
+  content: "Good news!";
+}
+
+aside.challenge:before {
+  content: "Up for a Challenge?";
+}
+
+aside.warning:before {
+  content: "Watch out!";
+}
+
+aside.but-wait:before {
+  content: "But wait!";
+}
